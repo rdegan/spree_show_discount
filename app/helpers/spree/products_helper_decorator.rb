@@ -1,5 +1,5 @@
 module Spree
-  module PromotionsHelper
+  module ProductsHelper
     def product_price(product)
       total = product.price
       product.possible_promotions.each do |promotion|
